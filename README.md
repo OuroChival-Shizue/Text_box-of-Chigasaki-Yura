@@ -137,7 +137,7 @@ pip install pillow keyboard pyperclip pywin32
 4. **在聊天软件中使用**
 
    * 激活你想要生成文字的输入框（例如 QQ / 微信 / 其他）
-   * 输入一段文字（例如：``）
+   * 输入一段文字（例如：`Ciallo~`）
    * 按下 **Enter**：
 
      * 脚本会自动：
