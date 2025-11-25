@@ -152,7 +152,7 @@ pip install pillow keyboard pyperclip pywin32
 
 * `Enter`：生成图片并（可选）自动发送
 * `Alt + 1~9`：切换不同表情（对应立绘文件）
-* `Ctrl + Tab`：清空预生成图片缓存（`文档/魔裁` 下的 jpg）
+* `Ctrl + Tab`：清空预生成图片缓存（`文档/夕樱` 下的 jpg）
 * `Esc`：退出脚本
 
 ---
