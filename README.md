@@ -11,6 +11,8 @@
 这个小工具是基于 GitHub 上的开源项目  
 **「Text_box-of-mahoushoujo_no_majosaiban」** 修改而来。
 
+原项目仓库：[Text_box-of-mahoushoujo_no_majosaiban]([https://github.com/xxxx/xxxx](https://github.com/oplivilqo/Text_box-of-mahoushoujo_no_majosaiban))
+
 原项目作者用心还原了《魔法少女的魔女审判》的对话框效果、文本自适应算法和角色立绘系统，我只是站在巨人的肩膀上做了一点点「懒人向」改造，把它简化成：
 
 - 单角色版本：**茅崎夕樱**
