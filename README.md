@@ -1,5 +1,5 @@
 
-# 茅崎夕樱 · 对话框生成器（基于《魔女裁判》文本框工具二创）
+# 茅崎夕樱 · 对话框生成器（基于《魔法少女的魔女审判》文本框工具二创）
 
 > ⚠️ 本项目为 **个人学习 / 交流用的二次开发工具**，  
 > 不代表原项目作者立场，也不用于任何商业用途。
@@ -11,7 +11,7 @@
 这个小工具是基于 GitHub 上的开源项目  
 **「Text_box-of-mahoushoujo_no_majosaiban」** 修改而来。
 
-原项目作者用心还原了《魔女裁判》的对话框效果、文本自适应算法和角色立绘系统，我只是站在巨人的肩膀上做了一点点「懒人向」改造，把它简化成：
+原项目作者用心还原了《魔法少女的魔女审判》的对话框效果、文本自适应算法和角色立绘系统，我只是站在巨人的肩膀上做了一点点「懒人向」改造，把它简化成：
 
 - 单角色版本：**茅崎夕樱**
 - 一键生成：按下回车就把当前输入框文字变成游戏风对话图片
@@ -36,7 +36,7 @@
 
 - 原项目仓库：`Text_box-of-mahoushoujo_no_majosaiban`  
 - 本仓库仅在此基础上做了：
-  - 删除多角色配置，只保留 **茅崎夕樱（sherri）**
+  - 删除多角色配置，只保留水葬银货的 **茅崎夕樱（yura）**
   - 固定布局：立绘 + 文本框 + 名字条
   - 简化快捷键与使用流程
   - 自动为对话文本加上 `「」`
@@ -84,8 +84,8 @@ pip install pillow keyboard pyperclip pywin32
 * `text_fit_draw.py`
 * `image_fit_paste.py`
 * `background/c1.png` ~ `c16.png`
-* `sherri/sherri (1).png` 等立绘资源
-* `font3.ttf`（对白字体）
+* `yuraa/yuraa (1).png` 等立绘资源
+* `LXGWWenKai-Medium.ttf`（对白字体）
 * `textbox_bg.png`（你自定义的底部对话框背景）
 
 ---
@@ -101,13 +101,13 @@ pip install pillow keyboard pyperclip pywin32
    ├─ main.py                # 本仓库提供的精简版脚本
    ├─ text_fit_draw.py
    ├─ image_fit_paste.py
-   ├─ font3.ttf
+   ├─ LXGWWenKai-Medium.ttf
    ├─ textbox_bg.png         # 底部蓝色条+白色泡泡
    ├─ background/
    │    ├─ c1.png
    │    ├─ ...
-   ├─ sherri/
-        ├─ sherri (1).png
+   ├─ yuraa/
+        ├─ yuraa (1).png
         ├─ ...
    ```
 
@@ -126,7 +126,7 @@ pip install pillow keyboard pyperclip pywin32
    首次运行会在：
 
    ```text
-   文档（Documents）/ 魔裁
+   文档（Documents）/ 夕樱
    ```
 
    下预生成若干张组合底图（背景 + 立绘 + 对话框），
